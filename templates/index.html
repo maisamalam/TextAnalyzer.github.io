@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#betafeatures">Beta Features</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <br>
+    <textarea id="text-area"></textarea>
+    <br>
+    <button id="analyze-button">Analyze</button>
+    <div id="results"></div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
+
